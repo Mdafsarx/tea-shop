@@ -11,6 +11,19 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          clifford: '#da373d',
+          'to-bg': '#F00',
+          'from-bg':'#FF8938',
+        }
+      }
+    }
+  }
+</script>
 <style>
 
 body{
@@ -239,7 +252,7 @@ body{
       <p class="text-base font-medium">Feb 05, 2027</p>
       <h2 class="text-xl font-extrabold">Collecting 8 points for discount</h2>
       <p class="text-base font-medium max-w-[70%]">There are many variations of passages of Lorem Ipsum available.</p>
-      <button class=" outline-none p-1 hover:text-black-300 hover:border hover:border-pink-100">Learn More</button>
+      <button class=" outline-none p-1 hover:text-black-300 hover:border hover:border-pink-100 ">Learn More</button>
    
   </div>
 
@@ -250,6 +263,49 @@ body{
 
 
 </main>
+
+
+
+
+  <footer class=" bg-pink-100 opacity-100 px-40 py-14">
+   <div class="pl-10">
+    <img src="./images/cup.png" alt="">
+   </div>
+   <div class="footer p-10  text-base-content">
+    <nav>
+      <header class="footer-title">Quick Links</header> 
+      <a class="link link-hover">Home</a>
+      <a class="link link-hover">About Us</a>
+      <a class="link link-hover">Insurance</a>
+      <a class="link link-hover">Privacy Policy</a>
+    </nav> 
+    <nav>
+      <header class="footer-title">Our Service</header> 
+      <a class="link link-hover">Life Insurance</a>
+      <a class="link link-hover">Car Insurance</a>
+      <a class="link link-hover">Health Insurance</a>
+      <a class="link link-hover">House Insurance</a>
+    </nav> 
+    <nav>
+      <header class="footer-title">Help</header> 
+      <a class="link link-hover">FAQs</a>
+      <a class="link link-hover">Contact Us</a>
+    </nav>
+
+    <div>
+      <h2 class="text-xl font-semibold w-[70%]">Subscribe to our newsletter</h2>
+      <p class="border-b border-black pb-8 ">Email address
+
+        <i class="fa-solid fa-angle-right ml-28  bg-gradient-to-r from-from-bg to-to-bg rounded-full text-base"></i>
+      </p>
+      <a href=""><img src="" alt=""></a>
+      <a href=""><img src="" alt=""></a>
+      <a href=""><img src="" alt=""></a>
+    </div>
+
+
+   </div>
+  </footer>
 
 
 
